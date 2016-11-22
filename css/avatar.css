@@ -101,11 +101,12 @@
 .abilities-tag-area {
     padding-top: 10px;
     height: 280px;
+    overflow-y: auto;
 }
 
 .abilities-tag {
     background-color: green;
-    padding-left: 15px;
+    padding-left: 12px;
     padding-right: 8px;
     padding-top: 7px;
     padding-bottom: 7px;
@@ -118,12 +119,15 @@
 
 .abilities-tag-close-button {
     height: 16px;
+    width: 25px;
     border: none;
     background-color: transparent;
-    color: white;
+    color: black;
     font-weight: bold;
     vertical-align: top;
     padding-top: 2px;
+    text-align: right;
+    padding-right: 5px;
 }
 
 .abilities-ok-area {
