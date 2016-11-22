@@ -1,8 +1,8 @@
-#item1:nth-child(1) { background: hsl(200, 99%, 50%); }
-#item2:nth-child(2) { background: hsl(190, 90%, 50%); }
-#item3:nth-child(3) { background: hsl(180, 80%, 50%); }
-#item4:nth-child(4) { background: hsl(170, 70%, 50%); }
-#item5:nth-child(5) { background: hsl(160, 60%, 50%); }
+#item0 { background: #0099FF; }
+#item1 { background: #003A69; }
+#item2 { background: #2eb135; }
+#item3 { background: #73e000; }
+#item4 { background: #00C4D9; }
 
 #btn_tri {
     height: 14px;
@@ -15,11 +15,12 @@
     padding-right: 0px;
 }
 
-#item1, #item2, #item3, #item4, #item5 {
+#item0, #item1, #item2, #item3, #item4 {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 15px;
+    font-color: #000000;
 }
 
 #interest_list {

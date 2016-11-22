@@ -2,24 +2,28 @@
 
 var areas = []
 
-areas[0] = "Software livre"
-areas[1] = "Arte e Design"
-areas[2] = "Empreendedorismo"
-areas[3] = "Entretenimento"
-areas[4] = "Tecnologia"
+areas[0] = ["Software livre", "#0099FF"]
+areas[1] = ["Arte e Design", "#003A69"]
+areas[2] = ["Empreendedorismo", "#2eb135"]
+areas[3] = ["Entretenimento", "#73e000"]
+areas[4] = ["Tecnologia", "#00C4D9"]
 
 function getUpArea(num){
     var aux = areas[num];
     areas[num] = areas[num-1];
     areas[num-1] = aux;
-    document.getElementById("item" + num).innerHTML = areas[num];
-    document.getElementById("item" + (num-1)).innerHTML = areas[num-1];
+    document.getElementById("item" + num).innerHTML = areas[num][0];
+    document.getElementById("item" + (num-1)).innerHTML = areas[num-1][0];
+    document.getElementById("item" + num).style.backgroundColor = areas[num][1];
+    document.getElementById("item" + (num-1)).style.backgroundColor = areas[num-1][1];
 }
 
 function getDownArea(num){
     var aux = areas[num];
     areas[num] = areas[num+1];
     areas[num+1] = aux;
-    document.getElementById("item" + num).innerHTML = areas[num];
-    document.getElementById("item" + (num+1)).innerHTML = areas[num+1];
+    document.getElementById("item" + num).innerHTML = areas[num][0];
+    document.getElementById("item" + (num+1)).innerHTML = areas[num+1][0];
+    document.getElementById("item" + num).style.backgroundColor = areas[num][1];
+    document.getElementById("item" + (num+1)).style.backgroundColor = areas[num+1][1];
 }

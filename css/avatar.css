@@ -68,7 +68,7 @@
 }
 
 .abilities-info-label {
-    padding-left: 60px;
+    padding-left: 48px;
     font-weight: bold;
     font-size: 20px;
 }
@@ -178,7 +178,7 @@
 }
 
 .priorities-info-label {
-    padding-left: 50px;
+    padding-left: 32px;
     font-weight: bold;
     font-size: 20px;
 }
@@ -245,11 +245,11 @@
     font-size: 20px;
 }
 
-#item1 { background: hsl(200, 99%, 50%); }
-#item2 { background: hsl(190, 90%, 50%); }
-#item3 { background: hsl(180, 80%, 50%); }
-#item4 { background: hsl(170, 70%, 50%); }
-#item5 { background: hsl(160, 60%, 50%); }
+#item0 { background: #0099FF; }
+#item1 { background: #003A69; }
+#item2 { background: #2eb135; }
+#item3 { background: #73e000; }
+#item4 { background: #00C4D9; }
 
 #img_tri {
     height: 14px;
@@ -266,6 +266,7 @@
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
+    color: white;
 }
 
 #item0, #item1, #item2, #item3, #item4 {
@@ -273,5 +274,6 @@
 }
 
 #interest_list {
-    border-collapse: collapse
+    border-collapse: collapse;
+    border: 2px solid white;
 }
