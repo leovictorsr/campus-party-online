@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../resources/Roboto.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     padding: 0px;
 }
@@ -7,8 +14,20 @@ body {
     margin: 0px;
 }
 
+.button-enter {
+    border: none;
+    background-color: #007676;
+    font-family: "Roboto" !important;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 3px 3px #2EB135;
+    height: 50px;
+    width: 200px;
+}
+
 .center {
     margin: auto;
+    text-align: center;
     width: 50%;
 }
 
@@ -20,6 +39,7 @@ body {
 }
 
 .phone-body {
+    line-height: 600px;
     height: 600px;
     width: 400px;
     background-color: #0099ff;
