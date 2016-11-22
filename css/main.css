@@ -7,3 +7,23 @@ body {
     padding: 0px;
     margin: 0px;
 }
+
+.phone-top {
+    background-image: url("../resources/top.png");
+    background-size: 400px;
+    width: 400px;
+    height: 26px;
+}
+
+.phone-body {
+    height: 600px;
+    width: 400px;
+    background-color: black;
+}
+
+.phone-bottom {
+    background-image: url("../resources/bottom.png");
+    background-size: 400px;
+    width: 400px;
+    height: 44px;
+}
