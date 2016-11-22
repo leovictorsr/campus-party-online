@@ -9,8 +9,7 @@ function redirect (url)
 
 function _EH_Help ()
 {
-    document.getElementById('light').style.display='block';
-    document.getElementById('fade').style.display='block';
+    redirect("menu-help");
 }
 
 function _EH_Inventory ()
@@ -31,4 +30,18 @@ function _EH_Map ()
 function _EH_Settings ()
 {
     redirect("menu-settings");
+}
+
+
+/* Help panels */
+function _EH_HelpPanel1 ()
+{    
+    document.getElementById("help-panel-1").style.display="block";
+    document.getElementById("fade").style.display="block";
+}
+
+function _EH_HelpPanel2 ()
+{    
+    document.getElementById("help-panel-2").style.display="block";
+    document.getElementById("fade").style.display="block";
 }

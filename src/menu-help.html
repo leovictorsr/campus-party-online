@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <title>Campus Party Online</title>
+        <script src="./handlers.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <link rel="stylesheet" type="text/css" href="../css/menu.css">
+    </head>
+    <body>
+        <div class = "phone-top center"></div>
+        <div class = "menu-body center">
+            <div style = "font-size: 22px;">Ajuda</div>
+            <table class="menu-table-help center" style = "background-color: #73e000">
+                <tr><th>
+                    Bem-vindo ao Campus Party Online!<br>
+                    Para melhorar sua experiência na Campus, criamos este game que cuidará de toda sua interação nos diversos eventos da Campus Party, enviando notificações, sugerindo atividades e recompensando quando alguma atividade ou interação é completada!<br>
+                    Ele funciona como um RPG, ou seja, você evolui quanto mais você explora! Mais atividades são recompensadas como mais pontos de XP e
+                    com mais XP você sobe de nível! As missões incompletas estão na tela principal. Não esqueça de adicionar seus amigos para compartilhar suas experiências, e verifique nossas sugestões de amizade baseadas no perfil criado no cadastro!<br>
+                    Se precisar de alguma ajuda mais, fique livre para escolher os seguintes sub-menus.<br>
+                    Se o que você precisa não se encaixar na ajuda a seguir, procure um de nossos colaboradores espalhados pelo evento.<br>
+                </th></tr>
+                <tr><th>
+                    <button class="menu-button-help" onclick="_EH_HelpPanel1()">Como a Campus me recompensa pelos eventos?</button>
+                </th></tr>
+                <tr><th>
+                    <button class="menu-button-help" onclick="_EH_HelpPanel2()">O que significa cada botão do menu?</button>
+                </th></tr>
+                <tr><th>
+                    <button class="menu-button-help">Como recuperar meus itens?</button>
+                </th></tr>
+                <tr><th>
+                    <button class="menu-button-help">O que eu ganho subindo de nível?</button>
+                </th></tr>
+                <tr><th>
+                    <button class="menu-button-help">Como registrar uma interação?</button>
+                </th></tr>
+            </table>
+            <div style="height:20px"></div>
+            <table class="menu-table-selection center">
+                <tr>
+                    <th class="menu-icon"><input type="image" class="menu-icon" src="../resources/character.jpg"/></th>
+                    <th class="menu-icon"><input type="image" class="menu-icon" src="../resources/inventory.jpg" onclick="_EH_Inventory()"/></th>
+                    <th class="menu-icon"><input type="image" class="menu-icon" src="../resources/map.jpg" onclick="_EH_Map()"/></th>
+                    <th class="menu-icon"><input type="image" class="menu-icon" src="../resources/menu.jpg" onclick="_EH_Main()"/></th>
+                    <th class="menu-icon"><input type="image" class="menu-icon" src="../resources/friends.jpg"/></th>
+                    <th class="menu-icon"><input type="image" class="menu-icon" src="../resources/settings.jpg"/></th>
+                    <th class="menu-icon"><input type="image" class="menu-icon-selected" src="../resources/help.jpg" onclick="_EH_Help()"/></th>
+                </tr>
+            </table>
+            <div id="help-panel-1" class="white_content">
+                <table class="menu-table-help-panel center">
+                    <tr><th colspan=1>
+                    Em cada um dos crachás entregues para os participantes existe um chip chamado RFID único.<br>
+                    Espalhado por toda a Campus, principalmente nos salões de eventos e stands, estão localizados sensores que leem esses RFID e sabem onde e o que você está fazendo baseado na programação da Campus.<br>
+                    Todas essas informações são enviadas pro banco de dados da Campus, que distribui os pontos de experiência e itens ganhos ao completar as missões.<br>
+                    É por isso que você pode participar do Campus Party Online mesmo sem ter um smartphone! Através dos totens espalhados por todo o evento, você pode checar todas as suas conquistas realizadas.
+                    </th></tr>
+                    <tr><th class="menu-cell-help-item" colspan=1>
+                        <button class="menu-button-help" onclick="getElementById('help-panel-1').style.display='none';getElementById('fade').style.display='none'">Voltar</button>
+                    </th></tr>                    
+                </table>
+            </div>
+            <div id="help-panel-2" class="white_content">
+                <table class="menu-table-help-panel center">
+                    <tr>
+                        <th class="menu-cell-help-item" colspan=1>
+                            <img src="../resources/character.jpg">
+                        </th>
+                        <th class="menu-cell-help-text" colspan=3>
+                            Este é o menu do seu avatar. Nele você pode checar seu nível, suas informações, interesses e habilidades, além de editar suas preferências de missões e eventos.
+                        </th>
+                    </tr> 
+                    <tr>
+                        <th class="menu-cell-help-item" colspan=1>
+                            <img src="../resources/inventory.jpg">
+                        </th>
+                        <th class="menu-cell-help-text" colspan=3>
+                            Este é o seu inventário. É pra lá que vão os itens que você ganha ao participar de eventos e missões.
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="menu-cell-help-item" colspan=1>
+                            <img src="../resources/map.jpg">
+                        </th>
+                        <th class="menu-cell-help-text" colspan=3>
+                            Mapa completo da Campus Party, com função de rotas e com informações precisas e bem detalhadas de todo o espaço do evento.
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="menu-cell-help-item" colspan=1>
+                            <img src="../resources/menu.jpg">
+                        </th>
+                        <th class="menu-cell-help-text" colspan=3>
+                            Tela principal do Campus Party Online! Aqui você verá as notificações de eventos próximos e uma lista com suas missões registradas! Além disso, tem uma visualização rápida da sua barra de experiência e nível.
+                        </th>
+                    </tr> 
+                    <tr>
+                        <th class="menu-cell-help-item" colspan=1>
+                            <img src="../resources/friends.jpg">
+                        </th>
+                        <th class="menu-cell-help-text" colspan=3>
+                            Lista de amigos e a funcionalidade de criar e procurar grupos de pessoas que estejam a fim de participar dos mesmos eventos que você, ou apenas sentar e conversar sobre o último episódio daquela série legal.
+                        </th>
+                    </tr> 
+                    <tr>
+                        <th class="menu-cell-help-item" colspan=1>
+                            <img src="../resources/settings.jpg">
+                        </th>
+                        <th class="menu-cell-help-text" colspan=3>
+                            Mude as configurações do Campus Party Online, como sons e notificações push.
+                        </th>
+                    </tr> 
+                    <tr><th colspan=4>
+                        <button class="menu-button-help" onclick="getElementById('help-panel-2').style.display='none';getElementById('fade').style.display='none'">Voltar</button>
+                    </th></tr>                    
+                </table>
+            </div>
+            <div id="fade" class="black_overlay"></div>
+        <div class = "phone-bottom center"></div>        
+    </body>
+</html>

@@ -2,6 +2,7 @@ table, th, td {
     background-color: #00C4D9;
     border: 2px solid white;
     border-radius: 5px;
+    line-height: 20px;
     font-size: 12px;
     width: 350px;
 }
@@ -24,6 +25,32 @@ table, th, td {
     font-family: "Roboto", sans-serif !important;
     font-weight: bold;
     font-size: 20px;
+}
+
+.menu-button-help {
+    border: none;
+    background-color: transparent;
+    height: 30px;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    width: 100%;
+}
+
+.menu-cell-help-item
+{
+    height: 10px;
+    line-height: 10px;
+    width: 15%;
+}
+
+.menu-cell-help-text
+{
+    color: black;
+    height: 10px;
+    line-height: 15px;
+    width: 85%;
 }
 
 .menu-experience {
@@ -56,6 +83,37 @@ table, th, td {
     border: none;
     border-radius: 35px;
     height: 70px;
+}
+
+.menu-table-help {
+    display: block;
+    font-size: 20px;
+    height: 420px;
+    line-height: 20px;
+    overflow-y: scroll;
+    text-align: left;
+    width: 350px;
+}
+
+.menu-table-help-panel-1 {
+    background-color: #00C4D9;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: black;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.menu-table-help-panel {
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    width: 100%;
 }
 
 .menu-table-quests{
