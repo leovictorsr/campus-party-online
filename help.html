@@ -1,0 +1,62 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style>
+        div {
+            font-family: "Roboto", sans-serif !important;
+        }
+
+        .black_overlay {
+        display: none;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index: 1001;
+        -moz-opacity: 0.8;
+        opacity: .80;
+        filter: alpha(opacity=80);
+        }
+
+        .white_content {
+        border-radius: 25px;
+        display: none;
+        position: absolute;
+        top: 65px;
+        left: 34px;
+        width: 320px;
+        height: 536px;
+        padding: 10px;
+        border: 3px solid #808080;
+        background-color: #B0B0B0;
+        z-index: 1002;
+        overflow: auto;
+        text-align: justify;
+        }
+
+        img {
+            height: 30px;
+        }
+
+        button {
+            background-color: Transparent;
+            border: none;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    </style>
+</head>
+
+<body>
+  <p><button type="submit" onclick="getElementById('light').style.display='block';getElementById('fade').style.display='block'"><img src="resources/help.png">
+  </button>
+  </p>
+  <div id="light" class="white_content">Esse é o App Oficial da Campus! Ele funciona como um RPG, conforme você usa e completa as missões, vai ganhando mais pontos de XP e
+  subindo de nível. As missões incompletas estão na tela principal. Não esqueça de adicionar seus amigos para compartilhar suas experiências,
+  e verifique nossas sugestões de amizade.<br/><br/><a href="javascript:void(0)" onclick="getElementById('light').style.display='none';getElementById('fade').style.display='none'">Fechar</a>
+  </div>
+  <div id="fade" class="black_overlay"></div>
+</body>
