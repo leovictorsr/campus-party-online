@@ -16,6 +16,24 @@ table, th, td {
     font-size: 20px;
 }
 
+.menu-experience {
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    line-height: 20px;
+}
+
+.menu-experience-bar {
+    background-color: #00C4D9;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 12px;
+    height: 10px;
+    width: 300px;
+}
+
 .menu-icon {
     background-color: transparent;
     border: none;
