@@ -12,6 +12,9 @@
     border-color: white;
     width: 80px;
     height: 80px;
+    background-image: url("../resources/foto.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .profile-area {
@@ -20,6 +23,10 @@
     padding-top: 10px;
     padding-left: 10px;
     text-align: left;
+}
+
+.profile-info {
+    width: 150px;
 }
 
 .profile-table {
@@ -37,9 +44,33 @@
     font-size: 22px;
 }
 
+.profile-level {
+    line-height: 80px;
+    padding-left: 80px;
+    font-size: 30px;
+    background-image: url("../resources/level-circle.png");
+    background-repeat: no-repeat;
+    background-position: 56px center;
+    background-size: 50%;
+    width: 50px;
+    display:block;
+}
+
 .abilities-area {
     padding-top: 20px;
     padding-left: 12px;
+    height: 440px;
+}
+
+.abilities-info-area {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.abilities-info-label {
+    padding-left: 60px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .abilities-search-area {
@@ -56,10 +87,66 @@
 
 .abilities-search-button {
     height: 32px;
-    width: 40px;
+    width: 44px;
     border: 0px;
-    background-position: center;
-    background-repeat: no-repeat;
     font-size: 20px;
     font-weight: bold;
+    background-color: #73e000;
+}
+
+.abilities-tag-area {
+    padding-top: 10px;
+    height: 280px;
+}
+
+.abilities-tag {
+    background-color: green;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    float: left;
+}
+
+.abilities-ok-area {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.abilities-ok-button {
+    width: 362px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #73e000;
+}
+
+.part-change-area {
+
+}
+
+.part-change-button {
+    width: 25px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../resources/ball.png");
+    background-color: transparent;
+    background-size: 50%;
+    border: none;
+}
+
+.part-change-clicked {
+    width: 25px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../resources/ball.png");
+    background-color: transparent;
+    background-size: 120%;
+    border: none;
 }
