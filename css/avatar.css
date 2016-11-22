@@ -204,9 +204,34 @@
 }
 
 .missions-info-area {
-    text-align: left;
+    background-color: #00C4D9;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 350px;
     margin-bottom: 10px;
-    height: 352px;
+    overflow-y: scroll;
+    text-align: left;
+    width: 350px;
+}
+
+.missions-info-button {
+    background-color: green;
+    border: 3px solid white;
+    border-radius: 100px;
+    font-size: 30px;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.missions-info-field {
+    background-color: #00C4D9;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 350px;
 }
 
 .missions-info-label {
