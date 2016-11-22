@@ -24,6 +24,10 @@ function getUpArea(num){
     document.getElementById("item" + (num-1)).innerHTML = areas[num-1][0];
     document.getElementById("item" + num).style.backgroundColor = areas[num][1];
     document.getElementById("item" + (num-1)).style.backgroundColor = areas[num-1][1];
+    document.getElementById("btn" + num + "0").style.backgroundColor = areas[num][1];
+    document.getElementById("btn" + num + "1").style.backgroundColor = areas[num][1];
+    document.getElementById("btn" + (num-1) + "0").style.backgroundColor = areas[num-1][1];
+    document.getElementById("btn" + (num-1) + "1").style.backgroundColor = areas[num-1][1];
 }
 
 function getDownArea(num){
@@ -34,4 +38,8 @@ function getDownArea(num){
     document.getElementById("item" + (num+1)).innerHTML = areas[num+1][0];
     document.getElementById("item" + num).style.backgroundColor = areas[num][1];
     document.getElementById("item" + (num+1)).style.backgroundColor = areas[num+1][1];
+    document.getElementById("btn" + num + "0").style.backgroundColor = areas[num][1];
+    document.getElementById("btn" + num + "1").style.backgroundColor = areas[num][1];
+    document.getElementById("btn" + (num+1) + "0").style.backgroundColor = areas[num+1][1];
+    document.getElementById("btn" + (num+1) + "1").style.backgroundColor = areas[num+1][1];
 }

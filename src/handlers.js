@@ -9,7 +9,8 @@ function redirect (url)
 
 function _EH_Help ()
 {
-    redirect("menu-help");
+    document.getElementById('light').style.display='block';
+    document.getElementById('fade').style.display='block';
 }
 
 function _EH_Inventory ()
