@@ -26,3 +26,8 @@ function add_ability()
 
     field.value = '';
 }
+
+function go_to_avatar_part_2()
+{
+    window.open("./avatar-part-2.html", "_self");
+}

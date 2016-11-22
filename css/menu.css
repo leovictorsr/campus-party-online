@@ -1,6 +1,6 @@
 table, th, td {
     background-color: #00C4D9;
-    border: 2px dashed grey;
+    border: 2px solid white;
     border-radius: 5px;
     font-size: 12px;
     width: 350px;
@@ -52,7 +52,7 @@ table, th, td {
 }
 
 .menu-table-title {
-    background-color: #007676;
+    background-color: #73e000;
     font-size: 20px;
     font-weight: bold;
     line-height: 20px;

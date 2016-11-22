@@ -29,6 +29,10 @@ button:focus {
     outline: none;
 }
 
+input:focus {
+    outline: none;
+}
+
 table td, table td * {
     vertical-align: top;
 }
