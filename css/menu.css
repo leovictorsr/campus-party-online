@@ -1,6 +1,6 @@
 table, th, td {
-    background-color: #00C4D9;
-    border: 2px solid white;
+    background-color: #0099ff;
+    border: 2px solid black;
     border-radius: 5px;
     line-height: 20px;
     font-size: 12px;
@@ -68,8 +68,8 @@ table, th, td {
 }
 
 .menu-experience-bar {
-    background-color: #00C4D9;
-    border: 2px solid white;
+    background-color: #73e000;
+    border: 2px solid black;
     border-radius: 5px;
     font-size: 12px;
     font-weight: bold;
@@ -93,6 +93,7 @@ table, th, td {
 }
 
 .menu-table-help {
+    background-color: rgb(0, 58, 105);
     display: block;
     font-size: 20px;
     height: 420px;
@@ -104,7 +105,7 @@ table, th, td {
 
 .menu-table-help-panel-1 {
     background-color: #00C4D9;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 5px;
     color: black;
     font-size: 12px;
