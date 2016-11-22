@@ -13,7 +13,7 @@ function missionClicked(num){
         mission[num] = 1;
         document.getElementById("mission" + num).style.backgroundColor = "#003A69";
         document.getElementById("mission" + num).style.color = "white";
-        document.getElementById("missionb" + num).innerHTML = "x";
+        document.getElementById("missionb" + num).innerHTML = "-";
         document.getElementById("missionb" + num).style.backgroundColor = "red";
     } else {
         mission[num] = 0;
