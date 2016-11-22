@@ -1,11 +1,15 @@
 html {
     padding: 0px;
-    margin: 0px;
 }
 
 body {
     padding: 0px;
     margin: 0px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
 }
 
 .phone-top {
@@ -18,7 +22,8 @@ body {
 .phone-body {
     height: 600px;
     width: 400px;
-    background-color: black;
+    background-color: #0099ff;
+    font-family: "Roboto", sans-serif !important;
 }
 
 .phone-bottom {
