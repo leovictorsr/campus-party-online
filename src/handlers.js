@@ -7,16 +7,6 @@ function redirect (url)
     window.open(url, "_self");
 }
 
-function _EH_Character ()
-{
-    redirect("menu-character");
-}
-
-function _EH_Friends ()
-{
-    redirect("menu-friends");
-}
-
 function _EH_Help ()
 {
     redirect("menu-help");
