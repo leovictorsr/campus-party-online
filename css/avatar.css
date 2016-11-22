@@ -1,0 +1,65 @@
+.avatar-body {
+    height: 600px;
+    width: 400px;
+    background-color: #0099ff;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.profile-photo {
+    background-color: black;
+    border-style: solid;
+    border: 2px 1px;
+    border-color: white;
+    width: 80px;
+    height: 80px;
+}
+
+.profile-area {
+    background-color: #73e000;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.profile-table {
+    vertical-align: top;
+}
+
+.profile-name {
+    padding-left: 8px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.profile-age {
+    padding-left: 8px;
+    font-size: 22px;
+}
+
+.abilities-area {
+    padding-top: 20px;
+    padding-left: 12px;
+}
+
+.abilities-search-area {
+    vertical-align: top;
+}
+
+.abilities-search {
+    width: 312px;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 5px;
+    border: 0px;
+}
+
+.abilities-search-button {
+    height: 32px;
+    width: 40px;
+    border: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    font-weight: bold;
+}

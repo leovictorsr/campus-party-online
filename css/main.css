@@ -25,6 +25,14 @@ body {
     width: 200px;
 }
 
+button:focus {
+    outline: none;
+}
+
+table td, table td * {
+    vertical-align: top;
+}
+
 .center {
     margin: auto;
     text-align: center;
