@@ -2,11 +2,22 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="css/main.css">
-        <script src = "./framework/angular.min.js"></script>
     </head>
     <body>
         <div class = "phone-top center"></div>
-        <div class = "phone-body center"></div>
+        <div class = "phone-body center">
+        	<button class="button-enter" onclick="_EH_Click()">
+        		Abrir Campus Party Online!
+        	</button>
+        	<script>
+        		function _EH_Click ()
+        		{
+        			window.open("src/register.html",
+        				        "Campus Party Online!",
+        				        "width=401.6, height=670, toolbar=no, menubar=no, resizable=no");
+        		}
+        	</script>
+        </div>
         <div class = "phone-bottom center"></div>
     </body>
 </html>

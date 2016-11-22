@@ -1,0 +1,26 @@
+.button-next {
+    background-color: #007676;
+    border: none;
+    box-shadow: 3px 3px #2EB135;
+    font-family: "Roboto" !important;
+    font-size: 15px;
+    font-weight: bold;
+    height: 50px;
+    width: 200px;
+}
+
+.image-qr {
+	height: 300px;
+}
+
+.register-body {
+    line-height: 120px;
+    height: 600px;
+    width: 400px;
+    background-color: #0099ff;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.text-status {
+	font-size: 40px;
+}
