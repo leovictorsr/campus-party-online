@@ -1,3 +1,7 @@
+*:focus {
+    outline: none;
+}
+
 .avatar-body {
     height: 600px;
     width: 400px;
@@ -241,6 +245,7 @@
     color: white;
     height: 100%;
     width: 100%;
+
 }
 
 .missions-info-field {

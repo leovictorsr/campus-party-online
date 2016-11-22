@@ -6,6 +6,16 @@ table, th, td {
     width: 350px;
 }
 
+.backInv {
+    margin-left: 25px;
+    margin-bottom: 80px;
+}
+
+.map {
+    height: 260px;
+    margin: 20px;
+}
+
 .menu-body {
     line-height: 70px;
     height: 600px;
@@ -74,4 +84,9 @@ table, th, td {
     font-size: 20px;
     font-weight: bold;
     line-height: 20px;
+}
+
+.inv_item {
+    vertical-align: middle;
+    border-radius: 20px;
 }
