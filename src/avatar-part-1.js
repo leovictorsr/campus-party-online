@@ -1,6 +1,6 @@
 abilities = new Set()
 //let colors = ['green', 'black', 'red', 'blue', 'grey', 'orange'];
-let colors = ['#73e000'];
+let colors = ['rgb(118, 208, 23)'];
 
 function create_tag(ability)
 {
