@@ -10,11 +10,11 @@ function go_to_avatar_part_3()
 
 var areas = []
 
-areas[0] = ["Software livre", "#0099FF"]
+areas[0] = ["Software livre", "#0062b1"]
 areas[1] = ["Arte e Design", "#003A69"]
 areas[2] = ["Empreendedorismo", "#2eb135"]
-areas[3] = ["Entretenimento", "#73e000"]
-areas[4] = ["Tecnologia", "#00C4D9"]
+areas[3] = ["Entretenimento", "rgb(118, 208, 23)"]
+areas[4] = ["Tecnologia", "rgb(194, 0, 255)"]
 
 function getUpArea(num){
     var aux = areas[num];

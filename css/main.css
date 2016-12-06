@@ -16,7 +16,7 @@ body {
 
 .button-enter {
     border: none;
-    background-color: #73e000;
+    background-color: rgb(118, 208, 23);
     font-family: "Roboto" !important;
     font-size: 15px;
     font-weight: bold;
@@ -54,7 +54,7 @@ table td, table td * {
     line-height: 600px;
     height: 600px;
     width: 400px;
-    background-color: #0099ff;
+    background-color: #0062b1;
     font-family: "Roboto", sans-serif !important;
 }
 

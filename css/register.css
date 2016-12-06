@@ -1,5 +1,5 @@
 .button-next {
-    background-color: #73e000;
+    background-color: rgb(118, 208, 23);
     border: none;
     box-shadow: 3px 3px #2EB135;
     font-family: "Roboto" !important;
@@ -17,7 +17,7 @@
     line-height: 120px;
     height: 600px;
     width: 400px;
-    background-color: #0099ff;
+    background-color: #0062b1;
     font-family: "Roboto", sans-serif !important;
 }
 
